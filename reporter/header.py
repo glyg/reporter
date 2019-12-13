@@ -30,11 +30,6 @@ def create_header(authors, city="Paris"):
     header_string : str
         the header string ...
 
-    Example
-    -------
-    >>> authors = [{}, {}]
-    >>> res = cre...
-
     """
 
     today = datetime.date.today().strftime('%d/%m/%Y')
